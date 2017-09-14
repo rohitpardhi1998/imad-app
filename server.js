@@ -10,16 +10,16 @@ app.get('/', function (req, res) {
 });
 
 app.get('/Artical-One',function(req,res){
-    res.sendFile('Artical-one requested and served');
+    res.send('Artical-one requested and served');
     
 });
 
 app.get('/Artical-Two',function(req,res){
-    res.sendFile('Artical-two requested and served');
+    res.send('Artical-two requested and served');
     
 });
 app.get('/Artical-Three',function(req,res){
-    res.sendFile('Artical-three requested and served');
+    res.send('Artical-three requested and served');
     
 });
 app.get('/ui/style.css', function (req, res) {
