@@ -28,6 +28,10 @@ app.get('/Artical-Three',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'artical-three.html'));
     
 });
+app.get('/profile',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
+    
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
